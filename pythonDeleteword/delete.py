@@ -1,6 +1,6 @@
 #remove a word from a txt
 #open up the txt
-f = open('E:\PYTHON REPO\Python_practice\preproinsulin_seq.txt','r')
+f = open('E:\PYTHON REPO\Python_practice\pythonDeleteword\preproinsulin_seq.txt','r')
 #what you want to remove
 a = ['ORIGIN', '1', '6', '//']
 #empty listt your gonna input new data in
@@ -15,7 +15,7 @@ for line in f:
     lst.append(line)
 f.close()
 #creating new file
-f = open('E:\PYTHON REPO\Python_practice\preproinsulin_seq_clean.txt','w')
+f = open('E:\PYTHON REPO\Python_practice\pythonDeleteword\preproinsulin_seq.txtclean','w')
 #writing new txt file
 for line in lst:
     f.write(line)
